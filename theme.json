@@ -1,7 +1,9 @@
 {
-    "version": 1,
-    "settings": {
-        "color":{},
-        "typography":{}
+    "version": 2,
+"settings": {
+    "layout": {
+        "contentSize": "840px",
+        "wideSize": "1100px"
     }
+}
 }
