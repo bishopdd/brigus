@@ -16,3 +16,160 @@ Text Domain: brigus
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/* Reset and Normalize
+-------------------------------------------------------------- */
+html {
+    box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+    
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dd, img, figure, figcaption, blockquote, hr {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #222;
+    }
+    
+    /* Headings
+    -------------------------------------------------------------- */
+    h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 1.5em;
+    }
+    
+    h1 {
+    font-size: 36px;
+    }
+    
+    h2 {
+    font-size: 30px;
+    }
+    
+    h3 {
+    font-size: 24px;
+    }
+    
+    h4 {
+    font-size: 18px;
+    }
+    
+    h5 {
+    font-size: 16px;
+    }
+    
+    h6 {
+    font-size: 14px;
+    }
+    
+    /* Links
+    -------------------------------------------------------------- */
+    a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    a:hover, a:focus {
+    text-decoration: underline;
+    }
+    
+    /* Container
+    -------------------------------------------------------------- */
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+    
+    /* Header
+    -------------------------------------------------------------- */
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    background-color: #333;
+    }
+    
+    header .site-title {
+    font-size: 24px;
+    }
+    
+    header .site-description {
+    font-size: 14px;
+    }
+    
+    /* Navigation
+    -------------------------------------------------------------- */
+    nav {
+    display: flex;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    display: flex;
+    }
+    
+    nav li {
+    margin-left: 15px;
+    }
+    
+    nav a {
+    display: block;
+    padding: 0.5em 1em;
+    }
+    
+    /* Content
+    -------------------------------------------------------------- */
+    .main-content {
+    margin-top: 2em;
+    }
+    
+    article {
+    margin-bottom: 2em;
+    }
+    
+    article img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    article h2 {
+    margin-bottom: 0.5em;
+    }
+    
+    article .entry-meta {
+    font-size: 14px;
+    margin-bottom: 1em;
+    color: #999;
+    }
+    
+    /* Footer
+    -------------------------------------------------------------- */
+    footer {
+    background-color: #333;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 14px;
+    }
+    
+    /* Media Queries
+    -------------------------------------------------------------- */
+    @media screen and (max-width: 767px) {
+    nav ul {
+    flex-direction: column;
+    }
+    nav li {
+        margin-left: 0;
+    }
+}
